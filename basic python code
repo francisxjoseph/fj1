@@ -1,0 +1,8 @@
+# Import the Pandas package.
+import pandas as pd
+
+# Read the CSV file from the current working directory.
+fitness = pd.read_csv('daily_activity.csv')
+
+# View the top five rows of the DataFrame.
+fitness.head()
